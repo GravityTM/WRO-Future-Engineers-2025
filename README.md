@@ -7,7 +7,7 @@ The Team
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Banu Isgandarli
 
- | Robotun Yan Görünüşü |
-|----------------------|
-| ![Side View]<img src="![IMG-20250905-WA0009](https://github.com/user-attachments/assets/8a86be74-144c-4fbc-8223-e027174d2660)
-" width="250"> |
+| Robotun Yan Görünüşü |
+|-----------------------|
+| <img src="https://github.com/user-attachments/assets/8a86be74-144c-4fbc-8223-e027174d2660" width="250"/> |
+
