@@ -1,8 +1,7 @@
 Table of Contents
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# WRO Future Engineers - Team [Komanda adı]
-
-Bu repoda komandanın robotu haqqında bütün texniki sənədlər, şəkillər və kodlar toplanmışdır.
+## Introduction
+Qısa olaraq komanda və layihənin məqsədi.
 
 
 
