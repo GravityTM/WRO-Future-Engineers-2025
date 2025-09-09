@@ -1,8 +1,6 @@
 Table of Contents
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Introduction
-Qısa olaraq komanda və layihənin məqsədi.
-
+- [Qualification Round](https://youtu.be/xxxx)
 
 
 The Team
