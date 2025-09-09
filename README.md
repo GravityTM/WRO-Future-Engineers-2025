@@ -7,7 +7,8 @@ The Team
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Banu Isgandarli
 
-| Robotun Yan Görünüşü |
+|from top 3d model |
 |-----------------------|
-| <img src="https://github.com/user-attachments/assets/8a86be74-144c-4fbc-8223-e027174d2660" width="250"/> |
+| <img src="<img width="999" height="762" alt="top" src="https://github.com/user-attachments/assets/3022cd89-6f7f-4c03-b50d-51091934c3ac" />
+" width="250"/> |
 
