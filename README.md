@@ -12,6 +12,8 @@ The Team
 
 | from top 3d model | from side 3d model |
 |------------------|------------------|
-| <img src="https://github.com/user-attachments/assets/3022cd89-6f7f-4c03-b50d-51091934c3ac" width="250"/> | <img src="https://github.com/user-attachments/assets/8a86be74-144c-4fbc-8223-e027174d2660" width="250"/> |
+| <img src="https://github.com/user-attachments/assets/3022cd89-6f7f-4c03-b50d-51091934c3ac" width="250"/> | <img src<img width="1688" height="671" alt="right" src="https://github.com/user-attachments/assets/42a4a9e2-2a62-4ac1-b08d-6e0914a790e9" />
+`![Uploading right.png…]()
+" width="250"/> |
 
 
