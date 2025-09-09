@@ -9,4 +9,4 @@ The Team
 
 | Robotun Ön Görünüşü | Robotun Yan Görünüşü |
 |----------------------|----------------------|
-| ![Front View](images/front.jpg) | ![Side View](images/side.jpg) |
+| ![Front View](images/front.jpg) | ![Side View](IMG-20250905-WA0006.jpg) |
