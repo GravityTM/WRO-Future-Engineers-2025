@@ -10,8 +10,8 @@ The Team
 3D Model of Robot
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-| from top 3d model |
-|------------------|
-| <img src="https://github.com/user-attachments/assets/3022cd89-6f7f-4c03-b50d-51091934c3ac" width="250"/> |
+| from top 3d model || from bottom|
+|------------------||------------------|
+| <img src="https://github.com/user-attachments/assets/3022cd89-6f7f-4c03-b50d-51091934c3ac" width="250"/> || <img src="https://github.com/user-attachments/assets/3022cd89-6f7f-4c03-b50d-51091934c3ac" width="250"/> |
 
 
