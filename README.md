@@ -1,6 +1,19 @@
 The Continens
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-The Team
+## Mobility Management
+
+### Chassis
+- Material: 3D printed PLA
+- Ölçülər: 210mm x 160mm
+- Çəkisi: 520g
+
+### Motorization
+- 2x DC motor
+- Max speed: 2.5 m/s
+
+### Steering Mechanism
+Servo motor ilə ön təkər yönləndirilməsi.
+
 
 
 
