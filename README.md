@@ -7,8 +7,8 @@ The Team
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Banu Isgandarli
 
-|from top 3d model |
-|-----------------------|
-| <img src="<img width="999" height="762" alt="top" src="https://github.com/user-attachments/assets/3022cd89-6f7f-4c03-b50d-51091934c3ac" />
-" width="250"/> |
+| from top 3d model |
+|------------------|
+| <img src="https://github.com/user-attachments/assets/3022cd89-6f7f-4c03-b50d-51091934c3ac" width="250"/> |
+
 
