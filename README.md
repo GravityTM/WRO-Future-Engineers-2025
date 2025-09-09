@@ -9,4 +9,5 @@ The Team
 
  | Robotun Yan Görünüşü |
 |----------------------|
-| ![Side View]<img src="[IMG-20250905-WA0009](https://github.com/user-attachments/assets/9b0f5dc9-ea82-43a6-a6e5-f01039432977)" width="250"> |
+| ![Side View]<img src="![IMG-20250905-WA0009](https://github.com/user-attachments/assets/8a86be74-144c-4fbc-8223-e027174d2660)
+" width="250"> |
