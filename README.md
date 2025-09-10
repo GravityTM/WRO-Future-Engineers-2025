@@ -7,18 +7,16 @@
   - [Components](#Components)
   - [Power Distribution](#Power-Distribution)
 - [ESP32 LiDAR Control Code](#esp32-lidar-control-code)
-  -[Esp32](#esp32)
-  -[Jetson Orin NX](#Jetson-Orin-NX)
-  -[System Workflow](#System-Workflow)
-  -[Operating Principle](#Operating-Principle)
+  - [Esp32](#esp32)
+  - [Jetson Orin NX](#Jetson-Orin-NX)
+  - [System Workflow](#System-Workflow)
+  - [Operating Principle](#Operating-Principle)
 - [YOLO Cube Detection & Distance Estimation](#yolo-cube-detection-and-distance-estimation)
-  -[Features](#Features)
-  -[Requirements](#Requirements) 
-  -[Camera Calibration](#Camera-Calibration)
-  -[Usage](#Usage)
-  -[Code](#Code)
-  
-  
+  - [Features](#Features)
+  - [Requirements](#Requirements) 
+  - [Camera Calibration](#Camera-Calibration)
+  - [Usage](#Usage)
+  - [Code](#Code)
 - [ESP32 and Servo Control for Jetson LiDAR Data](#esp32-and-servo-control-for-jetson-lidar-data)
 
 
