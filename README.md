@@ -32,7 +32,7 @@ My name is Jannat Özdemir, I am 16 years old.My zodiac sign is Sagittarius. In 
 Hello, my name is Fatima Elizade. I am 16 years old. I study in high school. I like programming. I enjoy playing games and also creating my own games. I know 3 programming languages.I love eating food.I like coconut🥥🫶🏿
 | Top  | Side | Front  | Back |
 |--------------|---------------|----------------|----------------|
-| <img src="https://github.com/user-attachments/assets/3022cd89-6f7f-4c03-b50d-51091934c3ac" width="200"/> | <img src="https://github.com/user-attachments/assets/f95d4301-5aab-4dcf-ae27-32852ed6ee1c"/> | <img src="https://github.com/user-attachments/assets/17ec1577-6b1a-4b27-a598-c34dd2752b3c" width="200"/> | <img src="https://github.com/user-attachments/assets/02416aa0-53ec-409b-bdfa-e27084d24a1f" width="200"/> |
+| <img src="https://github.com/user-attachments/assets/3022cd89-6f7f-4c03-b50d-51091934c3ac" width="200"/> | <img src="https://github.com/user-attachments/assets/f95d4301-5aab-4dcf-ae27-32852ed6ee1c"  width="200px"/> | <img src="https://github.com/user-attachments/assets/17ec1577-6b1a-4b27-a598-c34dd2752b3c" width="200px"/> | <img src="https://github.com/user-attachments/assets/02416aa0-53ec-409b-bdfa-e27084d24a1f" width="200"/> |
 -----------------------------------------------------------------------
 
 
