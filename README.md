@@ -21,7 +21,7 @@ My name is Jannat Özdemir, I am 16 years old.My zodiac sign is Sagittarius. In 
 
 ### Fatima Alizade
 
-<img src="https://github.com/user-attachments/assets/d2b35b94-d2f3-4203-85ee-5a1d0a4a79e7" width="500px" height="500px"/>
+<img src="https://github.com/user-attachments/assets/d2b35b94-d2f3-4203-85ee-5a1d0a4a79e7" width="400px" height="500px"/>
 
 
 
