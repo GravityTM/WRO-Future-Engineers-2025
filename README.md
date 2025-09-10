@@ -82,7 +82,7 @@ Open Round-->https://www.youtube.com/watch?v=aMErQvMpUjY
 
 
 
-### 🔧 Components
+## Components
 
 * *NVIDIA Jetson Nano* – main AI and vision processing unit.
 * *ESP32* – microcontroller for sensor reading and motor control.
@@ -96,7 +96,7 @@ Open Round-->https://www.youtube.com/watch?v=aMErQvMpUjY
 
 ---
 
-### ⚡ Power Distribution
+## Power Distribution
 
 * All modules share a *common GND*.
 * Battery → Step-Down → 5V output:
