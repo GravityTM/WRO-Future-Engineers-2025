@@ -12,7 +12,7 @@ Hello! My name is Banu, and I am 15 years old. To date, I have participated in f
 
 ### Fatuma Alizade
 hey dude lm nor excist in real life
-![katya](https://github.com/user-attachments/assets/338f4ec3-74a1-4f70-a8b8-045f1dbf1b63)
+ <img src="https://github.com/user-attachments/assets/338f4ec3-74a1-4f70-a8b8-045f1dbf1b63" width="200"/>
 
 
 3D Model of Robot
