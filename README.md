@@ -34,11 +34,15 @@ Hello, my name is Fatima Elizade. I am 16 years old. I study in high school. I l
 
 
 
-# Photos of Robot
+
 
 # Video of the Robot
-https://www.youtube.com/watch?v=aMErQvMpUjY
+Open Round-->https://www.youtube.com/watch?v=aMErQvMpUjY
 
+
+
+
+# Photos of Robot
 | Top  | Side |
 |--------------|---------------|
 | <img src="https://github.com/user-attachments/assets/7f6000c9-395f-4648-aea6-9cd50357c543" width="500px"/> | <img src="https://github.com/user-attachments/assets/f95d4301-5aab-4dcf-ae27-32852ed6ee1c"  width="500px"/> |
