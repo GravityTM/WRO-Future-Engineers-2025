@@ -57,8 +57,16 @@ It can be used in robotics competitions such as **WRO Future Engineers**.
 Install the dependencies:
 
 ```bash
-pip install ultralytics opencv-python
+pip install ultralytics opencv-python 
+```
+⚙️ Camera Calibration
 
+The script uses calibration values to calculate distances:
+```python
+FOCAL_LENGTH = 846.0   # px (from calibration)
+REAL_HEIGHT  = 10.0    # cm (real cube height)
+LINE_DIST_CM = 20.0    # cm (distance between guiding lines)
+```
 
 
 
