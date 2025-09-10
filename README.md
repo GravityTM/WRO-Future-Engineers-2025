@@ -22,6 +22,9 @@ My name is Jannat Özdemir, I am 16 years old.My zodiac sign is Sagittarius. In 
 
 
 
+
+
+
 ### Fatima Alizade
 
 <img src="https://github.com/user-attachments/assets/9bb84605-dea2-4183-8ffc-12d16d6cfe33" width="100px" height="200px"/>
@@ -37,6 +40,23 @@ Hello, my name is Fatima Elizade. I am 16 years old. I study in high school. I l
 |--------------|---------------|----------------|----------------|
 | <img src="https://github.com/user-attachments/assets/3022cd89-6f7f-4c03-b50d-51091934c3ac" width="200"/> | <img src="https://github.com/user-attachments/assets/42a4a9e2-2a62-4ac1-b08d-6e0914a790e9" width="200"/> | <img src="https://github.com/user-attachments/assets/97e87bd3-68e6-482d-ac02-700d0cf6718d" width="200"/> | <img src="https://github.com/user-attachments/assets/02416aa0-53ec-409b-bdfa-e27084d24a1f" width="200"/> |
 -----------------------------------------------------------------------
+
+**Electronic Circuit
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<img src="https://github.com/user-attachments/assets/5a9c56da-8c2a-45b3-afc5-0a92218413eb" width="100px" height="200px"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
 # YOLO Cube Detection & Distance Estimation
 
 This project uses a **YOLOv8 model** and OpenCV to detect cubes (green and red), estimate their distance from the camera, and show navigation hints (`⬅ LEFT` or `RIGHT ➡`) depending on the closest cube.  
