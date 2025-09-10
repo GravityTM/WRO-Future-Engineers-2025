@@ -7,11 +7,19 @@ The Team
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Banu Isgandarli
 
-Hello! My name is Banu, and I am 15 years old. To date, I have participated in four competitions, and this year marks my first foray into the WRO Future Engineers category. In my free time, I am passionate about robotics, programming, and playing the violin. I also enjoy exploring new concepts and continuously developing my skills. Additionally, I have a strong interest in chess and Formula 1, which reflect my enthusiasm for both strategic thinking and dynamic problem-solving.
+Hello! My name is Banu, and I am 15 years old. To date, I have participated in four competitions, and this year marks my first foray into the WRO Future Engineers category. In my free time, I am passionate about robotics, programming, and playing the violin. I also enjoy exploring new concepts and continuously developing my skills. Additionally, I have a strong interest in chess and Formula 1, which reflect my enthusiasm for both strategic thinking and dynamic problem-solving.🎀🏎
+
+
+
+### Jannat Ozdemir
+
+My name is Jannat Özdemir, I am 16 years old.My zodiac sign is Sagittarius. In my free time, I enjoy horse riding, reading books, and learning new languages. I also love traveling around different countries. I have previously participated in the LEGO Line category. I am passionate about cybersecurity.l can make the best desserts in the world My signature phrase is: “We will beat everyone"💅💎
 
 
 ### Fatuma Alizade
-hey dude lm nor excist in real life
+
+Hello, my name is Fatima Elizade. I am 16 years old. I study in high school. I like programming. I enjoy playing games and also creating my own games. I know 3 programming languages.I love eating food.I like coconut🥥🫶🏿
+
 
 
 
