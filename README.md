@@ -14,7 +14,7 @@
 
 # The Team
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-<img src="<img src="https://github.com/user-attachments/assets/9bb84605-dea2-4183-8ffc-12d16d6cfe33" width="100px" height="200px"/>" width="100px" height="200px"/>
+<img src="<img src="https://github.com/user-attachments/assets/b5ba994f-49d6-4bc4-a5ba-f552cbae6bdb" width="700px" height="800px"/>
 
 ### Banu Isgandarli
 
