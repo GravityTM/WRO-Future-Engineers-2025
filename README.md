@@ -8,8 +8,7 @@ The Team
 ### Banu Isgandarli
 
 Hello! My name is Banu, and I am 15 years old. To date, I have participated in four competitions, and this year marks my first foray into the WRO Future Engineers category. In my free time, I am passionate about robotics, programming, and playing the violin. I also enjoy exploring new concepts and continuously developing my skills. Additionally, I have a strong interest in chess and Formula 1, which reflect my enthusiasm for both strategic thinking and dynamic problem-solving.🎀🏎
-<img src="![banu](https://github.com/user-attachments/assets/c712b4af-d562-49f1-a2df-c94210ad522f)
-" width="700px"/>
+<img src="https://github.com/user-attachments/assets/c712b4af-d562-49f1-a2df-c94210ad522f" width="700px"/>
 
 
 
