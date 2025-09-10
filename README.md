@@ -2,9 +2,13 @@ Table of Contents
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Table of Contents
 
-- [Robotun Yan Görünüşü](#The-Team)
-- [Robotun Ön Görünüşü](#robotun-on-gorunusu)
-- [Texniki Detallar](#texniki-detallar)
+- [Team](#The-Team)
+- [Video of the Robot](#Video-of-the-Robot)
+- [Photos of Robot](#Photos-of-Robot)
+- [3D Model of Robot](#3D-Model-of-Robot)
+- [Electronic Circuit](#Electronic-Circuit)
+- [ESP32 LiDAR Control Code](#ESP32-LiDAR-Control-Code)
+- [YOLO Cube Detection & Distance Estimation](#YOLO-Cube-Detection-&-Distance-Estimation)
 
 
 
@@ -91,7 +95,6 @@ Open Round-->https://www.youtube.com/watch?v=aMErQvMpUjY
 
   * Jetson Nano
   * ESP32
-  * Ultrasonic sensors
   * Servo motor
 * Battery → L298N Motor Driver → DC motor
 
@@ -100,7 +103,6 @@ Open Round-->https://www.youtube.com/watch?v=aMErQvMpUjY
 
 ### ESP32
 
-* *Ultrasonic sensors (Trig/Echo)* → GPIO pins.
 * *Servo PWM* → GPIO PWM output.
 * *L298N IN1, IN2, IN3, IN4* → GPIO pins for motor control.
 * *UART (TX/RX)* → Serial communication with Jetson Nano.
@@ -108,19 +110,18 @@ Open Round-->https://www.youtube.com/watch?v=aMErQvMpUjY
 ### Jetson Nano
 
 * *USB Camera* → USB port.
-* *RP Lidar* → USB/UART port.
+* *D500 Lidar* → USB/UART port.
 * *ESP32 Communication* → UART (TX/RX).
 
 ---
 
 ## 📲 System Workflow
 
-1. *Ultrasonic sensors* measure nearby obstacles.
-2. *RP Lidar* scans the environment for mapping.
-3. *Camera* provides video input for AI vision.
-4. *ESP32* collects sensor data and controls motors/servos.
-5. *Jetson Nano* processes AI models and sends decisions to ESP32.
-6. *Motor Driver (L298N)* drives the DC motor based on ESP32 signals.
+1. *D500 Lidar* scans the environment for mapping.
+2. *Camera* provides video input for AI vision.
+3. *ESP32* collects sensor data and controls motors/servos.
+4. *Jetson Nano* processes AI models and sends decisions to ESP32.
+5. *Motor Driver (L298N)* drives the DC motor based on ESP32 signals.
 
 ---
 
@@ -133,22 +134,6 @@ Open Round-->https://www.youtube.com/watch?v=aMErQvMpUjY
 
 ---
 
-## ⚠ Notes
-
-* Ensure *all GND connections are shared*.
-* Use a *separate step-down* for servos to avoid noise on sensors.
-* Recommended UART baud rate: *115200*.
-* Check motor polarity when wiring L298N.
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -156,8 +141,6 @@ Open Round-->https://www.youtube.com/watch?v=aMErQvMpUjY
 # YOLO Cube Detection & Distance Estimation
 
 This project uses a **YOLOv8 model** and OpenCV to detect cubes (green and red), estimate their distance from the camera, and show navigation hints (`⬅ LEFT` or `RIGHT ➡`) depending on the closest cube.  
-It can be used in robotics competitions such as **WRO Future Engineers**.
-
 ---
 
 ## 🚀 Features
