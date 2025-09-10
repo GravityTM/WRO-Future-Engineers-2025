@@ -78,8 +78,7 @@ Hello, my name is Fatima Elizade. I am 16 years old. I study in high school. I l
 ⚠ Jetson Nano requires *5V 4A stable power*.
 
 ---
-
-## 🔌 Wiring Overview
+# ESP32 LiDAR Control Code
 
 ### ESP32
 
