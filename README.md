@@ -333,7 +333,7 @@ unsigned long lastServoMoveMillis = 0;
 
 
 void setup() {
-  Serial.begin(115200); // Serial LiDAR input
+  Serial.begin(115200);
   Serial.println("Serial LiDAR ESP32 Robot Starting...");
 
 
@@ -347,7 +347,6 @@ void setup() {
   myServo.attach(servoPin, 500, 2400);
   myServo.write(SERVO_CENTER);
 
-  // Motor
   pinMode(IN3, OUTPUT);
   pinMode(IN4, OUTPUT);
   ledcAttachPin(ENA, PWM_CHANNEL);
@@ -400,7 +399,7 @@ void computeSteeringFromWalls(){
   if(!haveValues) return;
   int right=values[0], left=values[2], front=values[3];
 
-  // Obstacle avoidance priority
+  
   if(front>0 && front<FRONT_OBSTACLE_THRESHOLD){
     if(left>right+50) servoTarget=SERVO_CENTER-30;
     else if(right>left+50) servoTarget=SERVO_CENTER+30;
@@ -443,7 +442,7 @@ void runMotorsF(int speed){ digitalWrite(IN3,HIGH); digitalWrite(IN4,LOW); ledcW
 void stopMotors(){ ledcWrite(PWM_CHANNEL,0); digitalWrite(IN3,LOW); digitalWrite(IN4,LOW);}
 
 void loop(){
-  // Read from Serial instead of TCP
+  
   if(Serial.available()){
     String line=Serial.readStringUntil('\n');
     handleLine(line);
