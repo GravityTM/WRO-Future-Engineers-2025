@@ -4,7 +4,7 @@
 - [Photos of Robot](#photos-of-robot)
 - [3D Model of Robot](#3d-model-of-robot)
 - [Electronic Circuit]
-(#electronic-circuit)
+ (#electronic-circuit)
   - [Components](#components)
   - [Power Distribution](#power-distribution)
 - [ESP32 LiDAR Control Code](#esp32-lidar-control-code)
