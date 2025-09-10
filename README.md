@@ -14,7 +14,7 @@
 
 # The Team
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-<img src="https://github.com/user-attachments/assets/b5ba994f-49d6-4bc4-a5ba-f552cbae6bdb" width="700px" height="800px"/>
+<img src="https://github.com/user-attachments/assets/b5ba994f-49d6-4bc4-a5ba-f552cbae6bdb" width="400px" height="300px"/>
 
 
 
