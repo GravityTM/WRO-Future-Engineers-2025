@@ -8,7 +8,7 @@ Table of Contents
 - [3D Model of Robot](#3D-Model-of-Robot)
 - [Electronic Circuit](#Electronic-Circuit)
 - [ESP32 LiDAR Control Code](#ESP32-LiDAR-Control-Code)
-- [YOLO Cube Detection & Distance Estimation](#YOLO-Cube-Detection-&-Distance-Estimation)
+- [YOLO Cube Detection & Distance Estimation](#YOLO-Cube-Detection-and-Distance-Estimation)
 
 
 
@@ -138,7 +138,7 @@ Open Round-->https://www.youtube.com/watch?v=aMErQvMpUjY
 
 
 
-# YOLO Cube Detection & Distance Estimation
+# YOLO Cube Detection and Distance Estimation
 
 This project uses a **YOLOv8 model** and OpenCV to detect cubes (green and red), estimate their distance from the camera, and show navigation hints (`⬅ LEFT` or `RIGHT ➡`) depending on the closest cube.  
 ---
