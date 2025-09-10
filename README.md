@@ -3,10 +3,9 @@
 - [Video of the Robot](#video-of-the-robot)
 - [Photos of Robot](#photos-of-robot)
 - [3D Model of Robot](#3d-model-of-robot)
-- [Electronic Circuit]
- (#electronic-circuit)
-  - [Components](#components)
-  - [Power Distribution](#power-distribution)
+- [Electronic Circuit](#electronic-circuit)
+  - [Components](#Components)
+  - [Power Distribution](#Power-Distribution)
 - [ESP32 LiDAR Control Code](#esp32-lidar-control-code)
 - [YOLO Cube Detection & Distance Estimation](#yolo-cube-detection-and-distance-estimation)
 - [ESP32 and Servo Control for Jetson LiDAR Data](#esp32-and-servo-control-for-jetson-lidar-data)
