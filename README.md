@@ -21,9 +21,9 @@ My name is Jannat Özdemir, I am 16 years old.My zodiac sign is Sagittarius. In 
 
 ### Fatima Alizade
 
+<img src="https://github.com/user-attachments/assets/d2b35b94-d2f3-4203-85ee-5a1d0a4a79e7" width="500px"/>
 Hello, my name is Fatima Elizade. I am 16 years old. I study in high school. I like programming. I enjoy playing games and also creating my own games. I know 3 programming languages.I love eating food.I like coconut🥥🫶🏿
 
-<img src="https://github.com/user-attachments/assets/d2b35b94-d2f3-4203-85ee-5a1d0a4a79e7" width="600px"/>
 
 
 
