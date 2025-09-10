@@ -185,13 +185,118 @@ cv2.destroyAllWindows()
 
 ---
 
-## 📷 Example Output
-- Bounding boxes with labels and distances  
-- Center markers `(x,y)`  
-- Vertical guide lines  
-- Navigation hint (`⬅ LEFT` or `RIGHT ➡`)  
+# ESP32 TCP Server + Servo Control for Jetson LiDAR Data
 
-Add a screenshot or video here:
+This project use **ESP32** to receive **LiDAR data from Jetson via TCP** and control **servo and motor**. It's designed for **WRO Future Engineers** for wall-following and obstacle avoidance.
+
+## Features
+
+- TCP server on ESP32 for LiDAR data
+- 4 direction LiDAR: 90°(right), 180°(back), 270°(left), 360°(front)
+- PID based servo control for wall-centering
+- Motor driver PWM control
+- BNO08x IMU for robot orientation
+- Smooth servo movement
+
+## Hardware Requirements
+
+- ESP32 dev kit  
+- Servo (SG90/MG90)  
+- DC Motor + Motor driver  
+- SparkFun BNO08x IMU  
+- LiDAR sensor (send data from Jetson)
+
+**Pin Mapping:**
+
+| Hardware | ESP32 Pin |
+|----------|-----------|
+| Servo    | 13        |
+| Motor IN3| 12        |
+| Motor IN4| 14        |
+| Motor ENA| 27        |
+| IMU SDA  | 21        |
+| IMU SCL  | 22        |
+
+## LiDAR Data Format
+
+"90:2709,180:1500,270:2000,360:450"
+
+- Values stored in values[]:
+
+| Index | LiDAR Angle | Description |
+|-------|------------|------------|
+| 0     | 90         | Right      |
+| 1     | 180        | Back       |
+| 2     | 270        | Left       |
+| 3     | 360        | Front      |
+
+## Setup
+
+1. Install libraries in Arduino IDE:  
+
+ESP32Servo  
+SparkFun_BNO08x_Arduino_Library
+
+2. Update WiFi credentials:
+
+const char* ssid = "Redmi12";  
+const char* password = "12345678w";
+
+3. Upload code to ESP32, check Serial Monitor for IP  
+4. Send LiDAR data from Jetson TCP port 2000  
+5. Robot will start servo + motor control automatically
+
+## LiDAR Parsing
+
+void handleLine(const String& s) { ... }
+
+- Parse line and store into values[]  
+- Ignore incomplete data  
+- Clamp values between 0..WALL_MAX_DIST  
+- haveValues becomes true when full packet received
+
+## PID + Servo Control
+
+void computeSteeringFromWalls() { ... }  
+void updateServoSmooth() { ... }
+
+- PID calculates error = left - right  
+- Deadband ignores small errors (STEER_DEADBAND_MM)  
+- Front obstacle detected => servo turn to avoid  
+- servoTarget updated  
+- Servo moves step by step for smooth motion (SERVO_STEP_MS)  
+
+## Motor Control
+
+void runMotorsF(int speed) { ... }  
+void stopMotors() { ... }
+
+- runMotorsF(speed) moves forward  
+- stopMotors() stops motor if no client  
+
+## IMU
+
+void runIMU() { ... }
+
+- BNO08x updates every 10ms  
+- Yaw value can be read for robot orientation  
+
+## Loop Flow
+
+1. Check TCP client  
+2. Parse LiDAR data  
+3. Compute PID steering  
+4. Update servo smoothly  
+5. Run motor at constant speed  
+6. Update IMU  
+7. Stop motor if no client  
+
+## Adjustable Params
+
+Kp, Ki, Kd        // PID  
+FRONT_OBSTACLE_THRESHOLD  
+SERVO_CENTER  
+MAX_STEER_DELTA
 
 ```markdown
 ![Demo](your_screenshot.png)
