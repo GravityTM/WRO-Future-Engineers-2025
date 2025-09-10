@@ -7,7 +7,7 @@ The Team
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Banu Isgandarli
 
-<img src="https://github.com/user-attachments/assets/c712b4af-d562-49f1-a2df-c94210ad522f" width="400px" height="300px"/>
+<img src="https://github.com/user-attachments/assets/d1633134-9a48-4e6a-9c2a-a42ba5db09b0" width="400px" height="300px"/>
 
 
 Hello! My name is Banu, and I am 15 years old. To date, I have participated in four competitions, and this year marks my first foray into the WRO Future Engineers category. In my free time, I am passionate about robotics, programming, and playing the violin. I also enjoy exploring new concepts and continuously developing my skills. Additionally, I have a strong interest in chess and Formula 1, which reflect my enthusiasm for both strategic thinking and dynamic problem-solving.🎀🏎
@@ -26,7 +26,7 @@ My name is Jannat Özdemir, I am 16 years old.My zodiac sign is Sagittarius. In 
 
 ### Fatima Alizade
 
-<img src="https://github.com/user-attachments/assets/d2b35b94-d2f3-4203-85ee-5a1d0a4a79e7" width="300px" height="500px"/>
+<img src="https://github.com/user-attachments/assets/9bb84605-dea2-4183-8ffc-12d16d6cfe33" width="300px" height="500px"/>
 Hello, my name is Fatima Elizade. I am 16 years old. I study in high school. I like programming. I enjoy playing games and also creating my own games. I know 3 programming languages.I love eating food.I like coconut🥥🫶🏿
 
 
