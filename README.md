@@ -1,16 +1,14 @@
 ## Table of Contents
-
-- [Team](#The-Team)
-- [Video of the Robot](#Video-of-the-Robot)
-- [Photos of Robot](#Photos-of-Robot)
-- [3D Model of Robot](#3D-Model-of-Robot)
+- [Team](#the-team)
+- [Video of the Robot](#video-of-the-robot)
+- [Photos of Robot](#photos-of-robot)
+- [3D Model of Robot](#3d-model-of-robot)
 - [Electronic Circuit](#electronic-circuit)
-  - [Components](#Components)
-   - [Power Distribution](#Power-Distribution)
-- [ESP32 LiDAR Control Code](#ESP32-LiDAR-Control-Code)
-- [YOLO Cube Detection & Distance Estimation](#YOLO-Cube-Detection-and-Distance-Estimation)
-- [ESP32 and Servo Control for Jetson LiDAR Data](#ESP32-and-Servo-Control-for-Jetson-LiDAR-Data)
-
+  - [Components](#components)
+  - [Power Distribution](#power-distribution)
+- [ESP32 LiDAR Control Code](#esp32-lidar-control-code)
+- [YOLO Cube Detection & Distance Estimation](#yolo-cube-detection-and-distance-estimation)
+- [ESP32 and Servo Control for Jetson LiDAR Data](#esp32-and-servo-control-for-jetson-lidar-data)
 
 
 
@@ -84,7 +82,7 @@ Open Round-->https://www.youtube.com/watch?v=aMErQvMpUjY
 
 
 
-## 🔧 Components
+### 🔧 Components
 
 * *NVIDIA Jetson Nano* – main AI and vision processing unit.
 * *ESP32* – microcontroller for sensor reading and motor control.
@@ -98,7 +96,7 @@ Open Round-->https://www.youtube.com/watch?v=aMErQvMpUjY
 
 ---
 
-## ⚡ Power Distribution
+### ⚡ Power Distribution
 
 * All modules share a *common GND*.
 * Battery → Step-Down → 5V output:
