@@ -46,6 +46,85 @@ Electronic Circuit
 <img src="https://github.com/user-attachments/assets/5a9c56da-8c2a-45b3-afc5-0a92218413eb" width="700px" height="700px"/>
 
 
+# 🤖 WRO Robot Electronics - README
+
+## 🔧 Components
+
+* *NVIDIA Jetson Nano* – main AI and vision processing unit.
+* *ESP32* – microcontroller for sensor reading and motor control.
+* *RP Lidar (A1/A2)* – for mapping and distance measurement.
+* *USB Camera* – object detection and vision input.
+* *Ultrasonic Sensors (HC-SR04, x2)* – short-range distance detection.
+* *L298N Motor Driver* – controls DC motors.
+* *DC Gear Motor (yellow)* – provides robot movement.
+* *Servo Motor (SG90/MG90S)* – steering or mechanical actuation.
+* *Step-Down Buck Converters (LM2596)* – voltage regulation for modules.
+* *Breadboard + ON/OFF Switch* – prototyping and power management.
+* *Battery Pack (Li-Po or Li-Ion)* – main power source.
+
+---
+
+## ⚡ Power Distribution
+
+* All modules share a *common GND*.
+* Battery → Step-Down → 5V output:
+
+  * Jetson Nano
+  * ESP32
+  * Ultrasonic sensors
+  * Servo motor
+* Battery → L298N Motor Driver → DC motor
+
+⚠ Jetson Nano requires *5V 4A stable power*.
+
+---
+
+## 🔌 Wiring Overview
+
+### ESP32
+
+* *Ultrasonic sensors (Trig/Echo)* → GPIO pins.
+* *Servo PWM* → GPIO PWM output.
+* *L298N IN1, IN2, IN3, IN4* → GPIO pins for motor control.
+* *UART (TX/RX)* → Serial communication with Jetson Nano.
+
+### Jetson Nano
+
+* *USB Camera* → USB port.
+* *RP Lidar* → USB/UART port.
+* *ESP32 Communication* → UART (TX/RX).
+
+---
+
+## 📲 System Workflow
+
+1. *Ultrasonic sensors* measure nearby obstacles.
+2. *RP Lidar* scans the environment for mapping.
+3. *Camera* provides video input for AI vision.
+4. *ESP32* collects sensor data and controls motors/servos.
+5. *Jetson Nano* processes AI models and sends decisions to ESP32.
+6. *Motor Driver (L298N)* drives the DC motor based on ESP32 signals.
+
+---
+
+## 🚀 Operating Principle
+
+* When powered on, ESP32 and Jetson Nano establish serial communication.
+* Jetson Nano runs AI tasks (object detection, path planning).
+* ESP32 executes low-level controls (distance checks, motor PWM, servo).
+* Together, they achieve autonomous robot navigation for WRO challenges.
+
+---
+
+## ⚠ Notes
+
+* Ensure *all GND connections are shared*.
+* Use a *separate step-down* for servos to avoid noise on sensors.
+* Recommended UART baud rate: *115200*.
+* Check motor polarity when wiring L298N.
+
+
+
 
 
 
