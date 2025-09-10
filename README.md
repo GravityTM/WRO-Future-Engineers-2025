@@ -39,7 +39,7 @@ Hello, my name is Fatima Elizade. I am 16 years old. I study in high school. I l
 
 | Top  | Side | Front  | Back |
 |--------------|---------------|----------------|----------------|
-| <img src="WhatsApp Şəkil 2025-09-10 saat 21 13 42_3dc8eef6](https://github.com/user-attachments/assets/22c4700a-b7f7-4ba1-bae5-babbeb927425" width="200"/> | <img src="https://github.com/user-attachments/assets/f95d4301-5aab-4dcf-ae27-32852ed6ee1c"  width="200px"/> | <img src="https://github.com/user-attachments/assets/17ec1577-6b1a-4b27-a598-c34dd2752b3c" width="200px"/> | <img src="https://github.com/user-attachments/assets/02416aa0-53ec-409b-bdfa-e27084d24a1f" width="200"/> |
+| <img src="https://github.com/user-attachments/assets/7f6000c9-395f-4648-aea6-9cd50357c543" width="200px"/> | <img src="https://github.com/user-attachments/assets/f95d4301-5aab-4dcf-ae27-32852ed6ee1c"  width="200px"/> | <img src="https://github.com/user-attachments/assets/17ec1577-6b1a-4b27-a598-c34dd2752b3c" width="200px"/> | <img src="https://github.com/user-attachments/assets/02416aa0-53ec-409b-bdfa-e27084d24a1f" width="200"/> |
 -----------------------------------------------------------------------
 
 
