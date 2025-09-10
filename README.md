@@ -7,7 +7,18 @@
   - [Components](#Components)
   - [Power Distribution](#Power-Distribution)
 - [ESP32 LiDAR Control Code](#esp32-lidar-control-code)
+  -[Esp32](#esp32)
+  -[Jetson Orin NX](#Jetson-Orin-NX)
+  -[System Workflow](#System-Workflow)
+  -[Operating Principle](#Operating-Principle)
 - [YOLO Cube Detection & Distance Estimation](#yolo-cube-detection-and-distance-estimation)
+  -[Features](#Features)
+  -[Requirements](#Requirements) 
+  -[Camera Calibration](#Camera-Calibration)
+  -[Usage](#Usage)
+  -[Code](#Code)
+  
+  
 - [ESP32 and Servo Control for Jetson LiDAR Data](#esp32-and-servo-control-for-jetson-lidar-data)
 
 
@@ -86,7 +97,7 @@ Open Round-->https://www.youtube.com/watch?v=aMErQvMpUjY
 
 * *NVIDIA Jetson Nano* – main AI and vision processing unit.
 * *ESP32* – microcontroller for sensor reading and motor control.
-* *D500 Lidar (A1/A2)* – for mapping and distance measurement.
+* *D500 Lidar* – for mapping and distance measurement.
 * *CSI Camera* – object detection and vision input.
 * *L298N Motor Driver* – controls DC motors.
 * *DC Gear Motor (yellow)* – provides robot movement.
@@ -101,7 +112,7 @@ Open Round-->https://www.youtube.com/watch?v=aMErQvMpUjY
 * All modules share a *common GND*.
 * Battery → Step-Down → 5V output:
 
-  * Jetson Nano
+  * Jetson Orin NX
   * ESP32
   * Servo motor
 * Battery → L298N Motor Driver → DC motor
@@ -115,7 +126,7 @@ Open Round-->https://www.youtube.com/watch?v=aMErQvMpUjY
 * *L298N IN1, IN2, IN3, IN4* → GPIO pins for motor control.
 * *UART (TX/RX)* → Serial communication with Jetson Nano.
 
-### Jetson Nano
+### Jetson Orin NX
 
 * *USB Camera* → USB port.
 * *D500 Lidar* → USB/UART port.
@@ -123,20 +134,20 @@ Open Round-->https://www.youtube.com/watch?v=aMErQvMpUjY
 
 ---
 
-## 📲 System Workflow
+##  System Workflow
 
 1. *D500 Lidar* scans the environment for mapping.
 2. *Camera* provides video input for AI vision.
 3. *ESP32* collects sensor data and controls motors/servos.
-4. *Jetson Nano* processes AI models and sends decisions to ESP32.
+4. *Jetson Orin NX* processes AI models and sends decisions to ESP32.
 5. *Motor Driver (L298N)* drives the DC motor based on ESP32 signals.
 
 ---
 
-## 🚀 Operating Principle
+##  Operating Principle
 
-* When powered on, ESP32 and Jetson Nano establish serial communication.
-* Jetson Nano runs AI tasks (object detection, path planning).
+* When powered on, ESP32 and Jetson Orin NX establish serial communication.
+* Jetson Orin NX runs AI tasks (object detection, path planning).
 * ESP32 executes low-level controls (distance checks, motor PWM, servo).
 * Together, they achieve autonomous robot navigation for WRO challenges.
 
@@ -151,7 +162,7 @@ Open Round-->https://www.youtube.com/watch?v=aMErQvMpUjY
 This project uses a **YOLOv8 model** and OpenCV to detect cubes (green and red), estimate their distance from the camera, and show navigation hints (`⬅ LEFT` or `RIGHT ➡`) depending on the closest cube.  
 ---
 
-## 🚀 Features
+##  Features
 - Real-time detection of red and green cubes  
 - Distance estimation using the pinhole camera model  
 - Vertical guide lines for alignment  
@@ -159,7 +170,7 @@ This project uses a **YOLOv8 model** and OpenCV to detect cubes (green and red),
 
 ---
 
-## 📦 Requirements
+##  Requirements
 Install the dependencies:
 
 ```bash
@@ -168,7 +179,7 @@ pip install ultralytics opencv-python
 
 ---
 
-## ⚙️ Camera Calibration
+##  Camera Calibration
 The script uses calibration values to calculate distances:
 
 ```python
@@ -181,7 +192,7 @@ You can change these values for your own camera setup.
 
 ---
 
-## ▶️ Usage
+##  Usage
 
 Run the script:
 
@@ -193,7 +204,7 @@ Press **Q** to quit.
 
 ---
 
-## 🔍 Code
+##  Code
 
 ```python
 from ultralytics import YOLO
@@ -292,7 +303,7 @@ cv2.destroyAllWindows()
 
 ---
 
-# ESP32 and Servo Control for Jetson LiDAR Data
+# ESP32 and Servo Control for Jetson Orin NX LiDAR Data
 ```cpp
 #include <Arduino.h>
 #include <ESP32Servo.h>
