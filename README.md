@@ -298,8 +298,4 @@ FRONT_OBSTACLE_THRESHOLD
 SERVO_CENTER  
 MAX_STEER_DELTA
 
-```markdown
-![Demo](your_screenshot.png)
-```
 
----
