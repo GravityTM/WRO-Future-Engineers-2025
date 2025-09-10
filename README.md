@@ -284,7 +284,7 @@ cv2.destroyAllWindows()
 
 ---
 
-# ESP32 TCP Server + Servo Control for Jetson LiDAR Data
+# ESP32 + Servo Control for Jetson LiDAR Data
 ```cpp
 #include <Arduino.h>
 #include <ESP32Servo.h>
