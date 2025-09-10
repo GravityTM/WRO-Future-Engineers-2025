@@ -5,8 +5,8 @@
 - [Photos of Robot](#Photos-of-Robot)
 - [3D Model of Robot](#3D-Model-of-Robot)
 - [Electronic Circuit]
-(#Electronic-Circuit)
-  -[Components](##Components)
+- (#Electronic-Circuit)
+   -[Components](#Components)
   -
 - [ESP32 LiDAR Control Code](#ESP32-LiDAR-Control-Code)
 - [YOLO Cube Detection & Distance Estimation](#YOLO-Cube-Detection-and-Distance-Estimation)
