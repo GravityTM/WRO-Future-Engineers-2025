@@ -9,7 +9,8 @@ Table of Contents
 - [Electronic Circuit](#Electronic-Circuit)
 - [ESP32 LiDAR Control Code](#ESP32-LiDAR-Control-Code)
 - [YOLO Cube Detection & Distance Estimation](#YOLO-Cube-Detection-and-Distance-Estimation)
-- [ESP32 + Servo Control for Jetson LiDAR Data](#ESP32-+-Servo-Control-for-Jetson-LiDAR-Data)
+- [ESP32 + Servo Control for Jetson LiDAR Data](#esp32-servo-control-for-jetson-lidar-data)
+
 
 
 
