@@ -41,12 +41,12 @@ Hello, my name is Fatima Elizade. I am 16 years old. I study in high school. I l
 | <img src="https://github.com/user-attachments/assets/3022cd89-6f7f-4c03-b50d-51091934c3ac" width="200"/> | <img src="https://github.com/user-attachments/assets/42a4a9e2-2a62-4ac1-b08d-6e0914a790e9" width="200"/> | <img src="https://github.com/user-attachments/assets/97e87bd3-68e6-482d-ac02-700d0cf6718d" width="200"/> | <img src="https://github.com/user-attachments/assets/02416aa0-53ec-409b-bdfa-e27084d24a1f" width="200"/> |
 -----------------------------------------------------------------------
 
-Electronic Circuit
+# Electronic Circuit
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <img src="https://github.com/user-attachments/assets/5a9c56da-8c2a-45b3-afc5-0a92218413eb" width="700px" height="700px"/>
 
 
-# 🤖 WRO Robot Electronics - README
+
 
 ## 🔧 Components
 
