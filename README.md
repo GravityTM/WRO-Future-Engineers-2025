@@ -41,7 +41,7 @@ Hello, my name is Fatima Elizade. I am 16 years old. I study in high school. I l
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Top 3D Model | Side 3D Model | Front 3D Model | Isometric 3D Model |
 |--------------|---------------|----------------|----------------|
-| <img src="https://github.com/user-attachments/assets/3022cd89-6f7f-4c03-b50d-51091934c3ac" width="200"/> | <img src="https://github.com/user-attachments/assets/42a4a9e2-2a62-4ac1-b08d-6e0914a790e9" width="200"/> | <img src="https://github.com/user-attachments/assets/97e87bd3-68e6-482d-ac02-700d0cf6718d" width="200"/> | <img src="https://github.com/user-attachments/assets/02416aa0-53ec-409b-bdfa-e27084d24a1f" width="200"/> |
+| <img src="https://github.com/user-attachments/assets/3022cd89-6f7f-4c03-b50d-51091934c3ac" width="200"/> | <img src="https://github.com/user-attachments/assets/42a4a9e2-2a62-4ac1-b08d-6e0914a790e9" width="200px" height="200px"/> | <img src="https://github.com/user-attachments/assets/97e87bd3-68e6-482d-ac02-700d0cf6718d" width="200"/> | <img src="https://github.com/user-attachments/assets/02416aa0-53ec-409b-bdfa-e27084d24a1f" width="200"/> |
 -----------------------------------------------------------------------
 
 # Electronic Circuit
@@ -55,14 +55,12 @@ Hello, my name is Fatima Elizade. I am 16 years old. I study in high school. I l
 
 * *NVIDIA Jetson Nano* – main AI and vision processing unit.
 * *ESP32* – microcontroller for sensor reading and motor control.
-* *RP Lidar (A1/A2)* – for mapping and distance measurement.
-* *USB Camera* – object detection and vision input.
-* *Ultrasonic Sensors (HC-SR04, x2)* – short-range distance detection.
+* *D500 Lidar (A1/A2)* – for mapping and distance measurement.
+* *CSI Camera* – object detection and vision input.
 * *L298N Motor Driver* – controls DC motors.
 * *DC Gear Motor (yellow)* – provides robot movement.
 * *Servo Motor (SG90/MG90S)* – steering or mechanical actuation.
 * *Step-Down Buck Converters (LM2596)* – voltage regulation for modules.
-* *Breadboard + ON/OFF Switch* – prototyping and power management.
 * *Battery Pack (Li-Po or Li-Ion)* – main power source.
 
 ---
@@ -77,8 +75,6 @@ Hello, my name is Fatima Elizade. I am 16 years old. I study in high school. I l
   * Ultrasonic sensors
   * Servo motor
 * Battery → L298N Motor Driver → DC motor
-
-⚠ Jetson Nano requires *5V 4A stable power*.
 
 ---
 # ESP32 LiDAR Control Code
